@@ -23,6 +23,9 @@ public class LoginPageDefinitions {
         options.addArguments("--start-maximized");
         
         driver = new ChromeDriver(options);
+        //no need for this and below comments
+
+
 //    	driver = new ChromeDriver();
 //    	driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
